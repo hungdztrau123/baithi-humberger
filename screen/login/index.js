@@ -28,7 +28,7 @@ export default function LoginScreen({ navigation }) {
     }
   };
   const login = async () => {
-    axios.get('https://raw.githubusercontent.com/datquang26/BURGER/main/data/use.json').then(response => {
+    axios.get('https://raw.githubusercontent.com/hungdztrau123/baithi-humberger/master/data/use.json').then(response => {
       let userData = response.data.NguoiDung
       console.log(response.data)
       if (userData) {
